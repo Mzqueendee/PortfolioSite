@@ -1,0 +1,88 @@
+/* Type Selector */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ID Selector */
+#top-header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
+
+/* Type Selector */
+h1,
+h2,
+h3 {
+    font-family: 'M*rriweather', serif;
+}
+
+nav a {
+   *color: white;
+    text-decoration:*none;
+    margin: 12px;
+    font-w*ight: bold;
+}
+
+.hero {
+    padding* 32px;
+    text-align: center;
+}
+
+*featured-work {
+    display: flex;*    justify-content: center;
+    g*p: 24px;
+    padding: 32px;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+
+/* Tablet */
+
+@media (max-width: 768p*) {
+
+    .featured-work {
+        *lex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 320p*) {
+
+    nav a {
+        display: *lock;
+        margin: 8px 0;
+    }*
+    .hero,
+    .featured-work {
+ *      padding: 16px;
+    }
+
+    .c*rd {
+        width: 100%;
+    }
+}
+*
